@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="Maven.listeners"/>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="Maven.HomepageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test2">
+    <classes>
+      <class name="Maven.logovalidateTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test3">
+    <classes>
+      <class name="Maven.titlevalidateTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Test4">
+    <classes>
+      <class name="Maven.FooterValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Test5">
+    <classes>
+      <class name="Maven.navigationbarTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Test6">
+    <classes>
+      <class name="Maven.CoursesSubTextTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

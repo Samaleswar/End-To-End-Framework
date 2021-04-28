@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Maven.listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Maven.HomepageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="closetab"/>
+          <include name="basepagenavigation"/>
+        </methods>
+      </class> <!-- Maven.HomepageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="Maven.logovalidateTest">
+        <methods>
+          <include name="closetab"/>
+          <include name="logoValidation"/>
+          <include name="nitialize"/>
+        </methods>
+      </class> <!-- Maven.logovalidateTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="Maven.titlevalidateTest">
+        <methods>
+          <include name="closetab"/>
+          <include name="titleValidation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Maven.titlevalidateTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
